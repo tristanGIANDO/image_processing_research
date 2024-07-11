@@ -41,6 +41,8 @@ ___
 
 ## Testing on "lena_bruit.png" (RGB, 512*512px)
 
+From this :
 !["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/src/lena_bruit.png)
 
-!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/lena_bruit_pca_100_gauss_05_median_1_size_70.png)
+To this (my favourites are the green ones):
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/lena_bruit_denoise_tests_01.jpg)
