@@ -42,6 +42,7 @@ ___
 ## Testing on "lena_bruit.png" (RGB, 512*512px)
 
 From this :
+
 !["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/src/lena_bruit.png)
 
 To this (my favourites are the green ones):
