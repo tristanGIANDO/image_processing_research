@@ -36,3 +36,11 @@ ___
 #### Median filter :
 !["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/median_low.png)
 !["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/median_high.png)
+
+___
+
+## Testing on "lena_bruit.png" (RGB, 512*512px)
+
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/src/lena_bruit.png)
+
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/lena_bruit_pca_100_gauss_05_median_1_size_70.png)
