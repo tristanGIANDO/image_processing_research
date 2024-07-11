@@ -47,3 +47,9 @@ From this :
 
 To this (my favourites are the green ones):
 !["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/lena_bruit_denoise_tests_01.jpg)
+
+
+___
+___
+
+## Let's explore Non Local Means !
