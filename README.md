@@ -5,19 +5,19 @@
 ## Goal
 
 We go from this :
-!["base"](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/base.png)
+!["base"](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/images/base.png)
 To this :
-!["result](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/result.png)
+!["result](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/images/result.png)
 
 ___
 
 ## I. Making our own PCA
 
 SKLearn PCA :
-!["skpca"](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/skpca_pca.png)
+!["skpca"](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/images/PCA_sklearn.png)
 
 Manual PCA
-!["mypca"](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/mypca_pca.png)
+!["mypca"](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/images/PCA_custom.png)
 
 ### Performances :
 
@@ -30,12 +30,12 @@ ___
 
 #### Gaussian filter :
 
-!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/gaussian_low.png)
-!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/gaussian_high.png)
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/images/gaussian_low.png)
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/images/gaussian_high.png)
 
 #### Median filter :
-!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/median_low.png)
-!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/median_high.png)
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/images/median_low.png)
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/images/median_high.png)
 
 ___
 
@@ -43,15 +43,15 @@ ___
 
 From this :
 
-!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/src/lena_bruit.png)
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/src/base_lena_bruit.png)
 
 To this (my favourites are the green ones):
-!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/lena_bruit_denoise_tests_01.jpg)
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/images/patch_denoise_pca_median_gauss.jpg)
 
 ___
 ___
 
-## III. Let's explore Non Local Means!
+## III. Let's explore Non Local Means
 
 I was a little frustrated.
 Despite the rather promising results, the quality of RGB denoising isn't really up to scratch with what we tested.
@@ -66,4 +66,14 @@ So I went looking for the best known software methods and discovered the **non-l
 
 `open-cv` does this in one line and very quickly, but the aim of this project is to understand how it works. So I've redone my own version (which works even though it's *40 times* slower!).
 
-!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/my_nlm.png)
+##### NLM openCV
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/images/NLM_opencv.png)
+
+##### NLM custom
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/images/NLM_custom.png)
+
+## EXR
+
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/src/base_rafale.jpg)
+
+!["."](https://raw.githubusercontent.com/tristanGIANDO/gt_denoiser/main/output/images/rafale.jpg)
